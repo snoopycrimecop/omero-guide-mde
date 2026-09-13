@@ -171,7 +171,7 @@ You can specify the different types like:
               Value=""
               Visible="true" />
 
- `ComboBox` with values from ontology (OMERO.insight version >= |insight_version|)::
+ `ComboBox` with values from ontology (OMERO.insight version >= 5.5.15)::
 
     <TagData DefaultValues=""
              Name="Tag of Type ComboBox val from ontology href"
@@ -182,7 +182,7 @@ You can specify the different types like:
         <Ontology URL_restapi="http://data.bioontology.org" Acronym="BAO" ID_href="http://www.bioassayontology.org/bao#BAO_0150008" />
     </TagData>
 
- `CheckComboBox` for multiple selection (OMERO.insight version >= |insight_version|)::
+ `CheckComboBox` for multiple selection (OMERO.insight version >= 5.5.15)::
 
      <TagData DefaultValues="Value1,Value2,Value3"
               Name="Tag of Type CheckComboBox"

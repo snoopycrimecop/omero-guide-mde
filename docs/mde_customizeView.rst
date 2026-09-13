@@ -5,7 +5,7 @@ Description
 -----------
 
 You can generate a filter view of the sets of objects. Also you can hide properties for objects and change the default unit.
-You can mark fields as required to restrict your input forms to objects with required metadata (OMERO.insight version >= |insight_version|).
+You can mark fields as required to restrict your input forms to objects with required metadata (OMERO.insight version >= 5.5.15).
 We will show in this section how to create a new setup and how to generate customized input forms of available objects in this setup.
 
 Step-by-Step
@@ -55,7 +55,7 @@ Step-by-Step
 
 |mde_customizeView_Customize|
 
-You can mark any field as required by adding ``Required = "true"`` as an attribute of ``TagDataProp`` (OMERO.insight version >= |insight_version|).
+You can mark any field as required by adding ``Required = "true"`` as an attribute of ``TagDataProp`` (OMERO.insight version >= 5.5.15).
 By selecting |mde_required_btn|, you can restrict the displayed objects of the selected setup to those that contain at least one required metadata field::
 
             <MDEObjects>
